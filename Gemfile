@@ -47,3 +47,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# from https://qiita.com/mm36/items/f92fe3b2484ced37a3fd
+gem 'rails_12factor', group: :production
